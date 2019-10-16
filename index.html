@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SimpleTest</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="main">
+        <div>
+            <div class="first">前端学院</div>
+            <div class="last"></div>
+        </div>
+        <button
+                onclick="document.getElementsByClassName('last')[0].classList.add('changeCanvas');
+                document.getElementsByClassName('first')[0].classList.add('changeColor')">切换样式</button>
+    </div>
+</body>
+</html>
